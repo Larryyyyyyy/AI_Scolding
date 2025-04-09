@@ -20,7 +20,7 @@ def ds1 ():
     }
 
     headers = {
-        "Authorization": "Bearer sk-blzujfpayglpxjtruyvcecmgvwerwhdmvtzdcvtknplxymzg",
+        "Authorization": "Bearer (你的API接口)",
         "Content-Type": "application/json"
     }
     response = requests.post(url, json=payload, headers=headers)
@@ -49,7 +49,7 @@ def ds2():
     }
 
     headers = {
-        "Authorization": "Bearer sk-blzujfpayglpxjtruyvcecmgvwerwhdmvtzdcvtknplxymzg",
+        "Authorization": "Bearer (你的API接口)",
         "Content-Type": "application/json"
     }
     response = requests.post(url, json=payload, headers=headers)
